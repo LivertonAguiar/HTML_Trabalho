@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Old Standard TT';
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+}
+.header img {
+    height: 100px;
+    margin: 40px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #daa520;
+}
+
+.header h3{
+    margin: 50px;
+}
+.form-container {
+    margin-top: -30px;
+}
+.form {
+    display: flex;
+    padding: 10px 20px;
+    margin: 2% 4%;
+    gap: 10px;
+}
+
+
+.input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.submit-button {
+    border: none;
+    width: 12rem;
+    border-radius: 10px;
+    background-color: #d1d1d1;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px 10px 20px;
+}
+
+.submit-button:hover {
+    background-color: rgba(218, 165, 32, 0.8);
+    color: white;    
+}
+
+.customer-logo {
+    margin-top: 50px;
+}
+
+.customer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.customer-items .primary-li {
+    list-style: none;
+}
+
+.second-container {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #daa520; 
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.grid-rows {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.feature .img-icon, .grid-rows .img-icon {
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.container-icon .title-subtitle {
+    width: 300px;
+    color: #daa520;
+    text-align: start;
+    line-height: 30px;
+    
+}
+
+.title-subtitle p {
+    color: white;
+}
+
+.third-container {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-about h2 {
+    font-size: 35px;
+    color: #daa520;
+    text-align: center;
+}
+.text-about p{
+    color: white;
+    margin: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.fourth-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    background-color: black;    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+}
+
+.video-description h2{
+    color: #daa520;
+}
+
+.video-description ul{
+    color: white;
+    font-size: 1.3rem;
+    width: 550px;
+    margin: 20px;
+    line-height: 28px;    
+}
+
+.fifth-container {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.person-title h1{
+    color: #daa520;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.person-title p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.person-name {
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+    color: #daa520;
+}
+
+.person-name .title-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.person-name .subtitle-name {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.person-name .person-icons img {
+    width: 80px;
+    border-radius: 50%;
+    margin: auto 10px auto 10px;
+}
+
+.person-name .person-icons .selectted {
+    opacity: 0.6;
+}
+
+.sixth-container {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.contact-us h1 , .contact-us p{
+    color: #daa520;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-us p {
+    margin-bottom: 70px;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #020d24;
+}
+
+.footer .footer-logo {
+    border-radius: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+.footer .copyright {
+    margin: 0;
+    padding: 0;
+}
